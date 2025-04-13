@@ -8,7 +8,7 @@ interface TestimonialCardProps {
 
 export const TestimonialCard = ({ name, role, image, quote, rating }: TestimonialCardProps) => {
   return (
-    <div className="bg-white p-6 rounded-2xl shadow-lg">
+    <div className="card hover-scale p-6 rounded-2xl shadow-custom">
       <div className="flex items-center mb-4">
         <div className="h-12 w-12 rounded-full bg-gray-200 flex items-center justify-center overflow-hidden">
           {image ? (

@@ -12,13 +12,13 @@ export const CallToAction = () => {
           <div className="mt-8 flex justify-center gap-x-4">
             <a
               href="#"
-              className="rounded-full bg-white px-8 py-3 text-lg font-semibold text-blue-600 shadow-sm hover:bg-blue-50 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white transition-colors"
+              className="btn btn-primary"
             >
               Get Started Now
             </a>
             <a
               href="#services"
-              className="rounded-full bg-blue-500 px-8 py-3 text-lg font-semibold text-white shadow-sm hover:bg-blue-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white transition-colors"
+              className="btn btn-outline"
             >
               Learn More
             </a>
