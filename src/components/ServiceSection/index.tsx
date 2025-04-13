@@ -7,7 +7,7 @@ interface ServiceCardProps {
 }
 
 const ServiceCard: FC<ServiceCardProps> = ({ title, description, icon }) => (
-  <div className="bg-white p-8 rounded-2xl shadow-custom hover-scale transition-all">
+  <div className="card hover-scale">
     <div className="inline-flex items-center justify-center w-12 h-12 rounded-xl bg-emerald-100 text-emerald-500 mb-6">
       {icon}
     </div>

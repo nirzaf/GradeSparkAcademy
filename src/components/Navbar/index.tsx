@@ -38,7 +38,7 @@ export const Navbar = () => {
                 {item.label}
               </a>
             ))}
-            <button className="bg-blue-600 text-white px-6 py-2 rounded-full hover:bg-blue-700 transition-colors">
+            <button className="btn btn-primary">
               Get Started
             </button>
           </div>
@@ -88,7 +88,7 @@ export const Navbar = () => {
                   {item.label}
                 </a>
               ))}
-              <button className="w-full mt-4 bg-blue-600 text-white px-6 py-2 rounded-full hover:bg-blue-700 transition-colors">
+              <button className="w-full mt-4 btn btn-primary">
                 Get Started
               </button>
             </div>
