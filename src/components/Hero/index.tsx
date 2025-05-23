@@ -1,4 +1,12 @@
+import { useState } from 'react';
+
 export const Hero = () => {
+  const [searchTerm, setSearchTerm] = useState('');
+
+  const handleSearch = () => {
+    console.log(searchTerm);
+  };
+
   return (
     <div className="relative bg-gradient-to-b from-emerald-50 to-white pt-16 pb-12 sm:pt-24 sm:pb-20">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
@@ -17,8 +25,13 @@ export const Hero = () => {
                 type="text"
                 placeholder="Search for subjects, topics, or services..."
                 className="w-full px-6 py-4 rounded-full border-2 border-emerald-200 focus:border-emerald-500 focus:outline-none shadow-sm text-gray-700 placeholder-gray-400"
+                value={searchTerm}
+                onChange={(e) => setSearchTerm(e.target.value)}
               />
-              <button className="absolute right-2 top-1/2 -translate-y-1/2 bg-emerald-500 text-white px-6 py-2 rounded-full hover:bg-emerald-600 transition-colors duration-300">
+              <button
+                className="absolute right-2 top-1/2 -translate-y-1/2 bg-emerald-500 text-white px-6 py-2 rounded-full hover:bg-emerald-600 transition-colors duration-300"
+                onClick={handleSearch}
+              >
                 Search
               </button>
             </div>

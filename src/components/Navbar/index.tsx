@@ -38,9 +38,9 @@ export const Navbar = () => {
                 {item.label}
               </a>
             ))}
-            <button className="btn btn-primary">
+            <a href="#get-started" className="btn btn-primary">
               Get Started
-            </button>
+            </a>
           </div>
 
           {/* Mobile menu button */}
@@ -88,9 +88,9 @@ export const Navbar = () => {
                   {item.label}
                 </a>
               ))}
-              <button className="w-full mt-4 btn btn-primary">
+              <a href="#get-started" className="w-full mt-4 btn btn-primary">
                 Get Started
-              </button>
+              </a>
             </div>
           </div>
         )}
