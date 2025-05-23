@@ -6,7 +6,7 @@ export const Hero = () => {
           <h1 className="text-4xl font-bold tracking-tight gradient-text sm:text-6xl lg:text-7xl">
             Excel in Your Academic Journey with Expert Support
           </h1>
-          <p className="mt-8 text-lg leading-8 text-gray-600 max-w-2xl mx-auto">
+          <p className="mt-8 text-lg leading-8 text-gray-600 max-w-2xl mx-auto text-center">
             Get professional academic assistance from experienced educators. We help students achieve their academic goals with personalized support, timely delivery, and guaranteed quality.
           </p>
 
